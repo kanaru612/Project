@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Screen transition">
+      <UniqueIdentifier>{103815c2-323f-425c-b6fc-3743cc9e3219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Score">
+      <UniqueIdentifier>{99e741ee-454b-4e99-96eb-547591d9371e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{1df60be7-8e59-4d43-a145-4680cfe8ac1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player">
+      <UniqueIdentifier>{6b13b6cc-f3eb-4e0c-8e2b-c8f1aedb38fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\model">
+      <UniqueIdentifier>{8c16a8bc-7620-472a-a225-56814aa4fc34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\enemy">
+      <UniqueIdentifier>{f9c440b4-e4e1-4eb3-abaa-93cb8f697b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\camera">
+      <UniqueIdentifier>{058e12d8-2737-4db5-be7e-67faf7446352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\light">
+      <UniqueIdentifier>{6db764c2-cde6-4dae-9230-cd4aa39d7a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shadow">
+      <UniqueIdentifier>{00453109-051d-411f-ad01-e12c6de7a5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main">
+      <UniqueIdentifier>{f256c206-6c69-4da3-9392-1012d0fff198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\input">
+      <UniqueIdentifier>{e2386f87-0f43-42c6-8cd0-4a51f44fca0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mesh">
+      <UniqueIdentifier>{98649d0d-9107-47ce-8e72-2d9f7d06e5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gimmick">
+      <UniqueIdentifier>{9dbaa77d-454d-4b41-ae58-fa89ee3cdd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\motion">
+      <UniqueIdentifier>{c5b82e32-3c7e-4a81-804f-e803e6c696af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClCompile>
+    <ClCompile Include="tutrial.cpp">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="object2D.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="object3D.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="objectX.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="modelparts.cpp">
+      <Filter>ソース ファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\light</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="rendere.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfield.cpp">
+      <Filter>ソース ファイル\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="strongbox.cpp">
+      <Filter>ソース ファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="soil.cpp">
+      <Filter>ソース ファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="goal.cpp">
+      <Filter>ソース ファイル\model</Filter>
+    </ClCompile>
+    <ClCompile Include="coin.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="gimmick.cpp">
+      <Filter>ソース ファイル\gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="key.cpp">
+      <Filter>ソース ファイル\motion</Filter>
+    </ClCompile>
+    <ClCompile Include="keyset.cpp">
+      <Filter>ソース ファイル\motion</Filter>
+    </ClCompile>
+    <ClCompile Include="motionset.cpp">
+      <Filter>ソース ファイル\motion</Filter>
+    </ClCompile>
+    <ClCompile Include="plife.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tutrial.h">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="object2D.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="object3D.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objectX.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ソース ファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="modelparts.h">
+      <Filter>ソース ファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ソース ファイル\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ソース ファイル\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ソース ファイル\light</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ソース ファイル\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="rendere.h">
+      <Filter>ソース ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ソース ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfield.h">
+      <Filter>ソース ファイル\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="strongbox.h">
+      <Filter>ソース ファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="soil.h">
+      <Filter>ソース ファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>ソース ファイル\model</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ソース ファイル\Screen transition</Filter>
+    </ClInclude>
+    <ClInclude Include="coin.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gimmick.h">
+      <Filter>ソース ファイル\gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>ソース ファイル\motion</Filter>
+    </ClInclude>
+    <ClInclude Include="motionset.h">
+      <Filter>ソース ファイル\motion</Filter>
+    </ClInclude>
+    <ClInclude Include="keyset.h">
+      <Filter>ソース ファイル\motion</Filter>
+    </ClInclude>
+    <ClInclude Include="plife.h">
+      <Filter>ソース ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
